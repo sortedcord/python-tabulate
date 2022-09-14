@@ -26,7 +26,7 @@ __version__ = "0.8.11"
 
 
 # minimum extra space in headers
-MIN_PADDING = 2
+MIN_PADDING = 0
 
 # Whether or not to preserve leading/trailing whitespace in data.
 PRESERVE_WHITESPACE = False
@@ -390,7 +390,7 @@ _table_formats = {
         linebelow=None,
         headerrow=DataRow("|", "|", "|"),
         datarow=DataRow("|", "|", "|"),
-        padding=1,
+        padding=0,
         with_header_hide=["lineabove"],
     ),
     "orgtbl": TableFormat(
